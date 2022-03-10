@@ -28,7 +28,7 @@ os.chdir('/content/welsh-summarisation-dataset')
 with open('./data/dataset.pkl', "rb") as dataset_file:
   dataset = pkl.load(dataset_file)
 ```
-- Nodwch bum rhes gyntaf eich set ddata gyda `.head()` (*Check the first five rows of your dataset with `.head()`*)
+- Nodwch bum rhes gyntaf eich set ddata gyda `.head()` (*Check the first five rows of your dataset with* `.head()`)
 ```python
 dataset.head()
 ```
