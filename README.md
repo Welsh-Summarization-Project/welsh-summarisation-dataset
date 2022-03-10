@@ -42,8 +42,7 @@ Dyma’r ddolen i arddangosiad syml o’r adnodd Crynhoi Testunau Cymraeg.
 - Morris, Jonathan, Ignatius Ezeani, Ianto Gruffydd, Katharine Young, Lynne Davies, Mahmoud El-Haj a Dawn Knight. 2022. **Creu crynodebau awtomatig o destunau Cymraeg**. Symposiwm Academaidd Technolegau Iaith Cymru 2022. Prifysgol Bangor, 28 Ionawr 2022.
   - Morris, Jonathan, Ignatius Ezeani, Ianto Gruffydd, Katharine Young, Lynne Davies, Mahmoud El-Haj a Dawn Knight. 2022. **Welsh Automatic Text Summarisation**. Wales Academic Symposium on Language Technologies 2022, Bangor University, 28 January 2022.
 
-- Morris, Jonathan, Ignatius Ezeani, Ianto Gruffydd, Katharine Young, Lynne Davies, Mahmoud El-Haj a Dawn Knight. Forth. **Welsh automatic text summarisation**. Language and Technology in Wales: Volume II, ed. D. Prys. Bangor: Canolfan Bedwyr.
-  - Morris, Jonathan, Ignatius Ezeani, Ianto Gruffydd, Katharine Young, Lynne Davies, Mahmoud El-Haj a Dawn Knight. Yn dod. **Creu crynodebau awtomatig o destunau Cymraeg**. Iaith a Thechnoleg yng Nghymru: Cyfrol II, gol. D. Prys. Bangor: Canolfan Bedwyr.
+- Morris, Jonathan, Ignatius Ezeani, Ianto Gruffydd, Katharine Young, Lynne Davies, Mahmoud El-Haj a Dawn Knight. Forth.  **Creu crynodebau awtomatig o destunau Cymraeg (Welsh automatic text summarisation)**. Language and Technology in Wales: Volume II, ed. D. Prys. Bangor: Canolfan Bedwyr. [Yn dod.  Iaith a Thechnoleg yng Nghymru: Cyfrol II, gol. D. Prys. Bangor: Canolfan Bedwyr.]
 
 ### Cysylltiadau (Contacts)
 - [Ignatius Ezeani](https://github.com/IgnatiusEzeani)
