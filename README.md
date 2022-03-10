@@ -11,11 +11,11 @@ Dyma gasgliad o 513 o destunau Cymraeg (erthyglau Wicipedia) a'u crynodebau. Tyn
 Ar gyfer sampl o’r defnydd a wnaed o’r set ddata, gallwch agor y llyfr nodiadau yn Google Colab, a thrwy glicio [] cyn mynd ati i ddilyn y cyfarwyddiadau canlynol.
 
 
-- Yn gyntaf, cloniwch yr ystorfa (First clone the repository)
+- Yn gyntaf, cloniwch yr ystorfa (*First clone the repository*)
 ```python
 !git clone https://github.com/UCREL/welsh-summarisation-dataset.git
 ```
-- Yna mewngludwch pickle a newid y cyfeiriadur i'r ffolder sydd wedi'i glonio (Then import pickle and change directory to the cloned folder)
+- Yna mewngludwch pickle a newid y cyfeiriadur i'r ffolder sydd wedi'i glonio (*Then import pickle and change directory to the cloned folder*)
 ```python
 import os
 import pickle as pkl
@@ -26,21 +26,24 @@ os.chdir('/content/welsh-summarisation-dataset')
 with open('./data/dataset.pkl', "rb") as dataset_file:
   dataset = pkl.load(dataset_file)
 ```
-- Nodwch bum rhes gyntaf eich set ddata gyda `.head()` (Check the first five rows of your dataset with `.head()`)
+- Nodwch bum rhes gyntaf eich set ddata gyda `.head()` (*Check the first five rows of your dataset with `.head()`*)
 ```python
 dataset.head()
 ```
 ![Dataset Screenshot](https://github.com/UCREL/welsh-summarisation-dataset/blob/main/img/dataset_screenshot.JPG?raw=true)
 
-Arddangosiad
-Dyma’r ddolen i arddangosiad syml o’r adnodd Crynhoi Testunau Cymraeg.
+### Arddangosiad (Demo)
+- Dyma’r ddolen i [arddangosiad syml](https://share.streamlit.io/ignatiusezeani/welsh-text-summarizer/main/streamlit/app.py) o’r adnodd Crynhoi Testunau Cymraeg.
+- *Here is the link to [a simple demo](https://share.streamlit.io/ignatiusezeani/welsh-text-summarizer/main/streamlit/app.py) of the Welsh Text Summarisation tool.
+[![Demo Screenshot](./img/demo_screenshot.JPG)](https://share.streamlit.io/ignatiusezeani/welsh-text-summarizer/main/app/app.py)*
+
 
 ### Papers (Papau):
-- Ezeani, I., El- Haj, M.A., Morris, J. a Knight, D. (2022). **Cyflwyno Adnodd Crynhoi Setiau Data Cymraeg, a Systemau Sylfaenol (Introducing the Welsh Summarisation Dataset and Baseline Systems)**. Trafodaethau o Gynhadledd Gwerthuso Adnoddau Iaith (LREC) 2022, Mehefin 2022, Marseille, Ffrainc. [Proceedings of the LREC (Language Resources Evaluation) 2022 Conference, June 2022, Marseille, France.] (IF ACCEPTED)
+- Ezeani, I., El- Haj, M.A., Morris, J. a Knight, D. (2022). **Cyflwyno Adnodd Crynhoi Setiau Data Cymraeg, a Systemau Sylfaenol (Introducing the Welsh Summarisation Dataset and Baseline Systems)**. Trafodaethau o Gynhadledd Gwerthuso Adnoddau Iaith (LREC) 2022, Mehefin 2022, Marseille, Ffrainc. [*Proceedings of the LREC (Language Resources Evaluation) 2022 Conference, June 2022, Marseille, France.*] (IF ACCEPTED)
 
-- Morris, Jonathan, Ignatius Ezeani, Ianto Gruffydd, Katharine Young, Lynne Davies, Mahmoud El-Haj a Dawn Knight. 2022. **Creu crynodebau awtomatig o destunau Cymraeg (Welsh automatic text summarisation)**. Symposiwm Academaidd Technolegau Iaith Cymru 2022. Prifysgol Bangor, 28 Ionawr 2022. [Wales Academic Symposium on Language Technologies 2022, Bangor University, 28 January 2022.]
+- Morris, Jonathan, Ignatius Ezeani, Ianto Gruffydd, Katharine Young, Lynne Davies, Mahmoud El-Haj a Dawn Knight. 2022. **Creu crynodebau awtomatig o destunau Cymraeg (Welsh automatic text summarisation)**. Symposiwm Academaidd Technolegau Iaith Cymru 2022. Prifysgol Bangor, 28 Ionawr 2022. [*Wales Academic Symposium on Language Technologies 2022, Bangor University, 28 January 2022.*]
 
-- Morris, Jonathan, Ignatius Ezeani, Ianto Gruffydd, Katharine Young, Lynne Davies, Mahmoud El-Haj a Dawn Knight. Forth. **Creu crynodebau awtomatig o destunau Cymraeg (Welsh automatic text summarisation)**. Yn dod.  Iaith a Thechnoleg yng Nghymru: Cyfrol II, gol. D. Prys. Bangor: Canolfan Bedwyr. [Language and Technology in Wales: Volume II, ed. D. Prys. Bangor: Canolfan Bedwyr.]
+- Morris, Jonathan, Ignatius Ezeani, Ianto Gruffydd, Katharine Young, Lynne Davies, Mahmoud El-Haj a Dawn Knight. Forth. **Creu crynodebau awtomatig o destunau Cymraeg (Welsh automatic text summarisation)**. Yn dod.  Iaith a Thechnoleg yng Nghymru: Cyfrol II, gol. D. Prys. Bangor: Canolfan Bedwyr. [*Language and Technology in Wales: Volume II, ed. D. Prys. Bangor: Canolfan Bedwyr.*]
 
 ### Cysylltiadau (Contacts)
 - [Ignatius Ezeani](https://github.com/IgnatiusEzeani)
